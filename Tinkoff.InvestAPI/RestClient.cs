@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 namespace Tinkoff.InvestAPI
 {
     [GeneratedCode("NSwag", "13.0.6.0 (NJsonSchema v10.0.23.0 (Newtonsoft.Json v11.0.0.0))")]
-    public partial class Client
+    public partial class RestClient
     {
         private const string StockExchangeUrl   = "https://api-invest.tinkoff.ru/openapi/";
         private const string SandboxUrl         = "https://api-invest.tinkoff.ru/openapi/sandbox";
@@ -25,7 +25,7 @@ namespace Tinkoff.InvestAPI
         private HttpClient httpClient;
         private Lazy<JsonSerializerSettings> settings;
 
-        public Client(HttpClient httpClient)
+        public RestClient(HttpClient httpClient)
         {
             this.httpClient = httpClient;
             settings = new Lazy<JsonSerializerSettings>(() =>

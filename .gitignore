@@ -3,3 +3,6 @@
 ################################################################################
 
 /packages/Newtonsoft.Json.12.0.2
+/Tinkoff.InvestAPI/obj/Debug
+/Tinkoff.InvestAPI/bin/Debug
+/.vs/Tinkoff.InvestAPI/v15

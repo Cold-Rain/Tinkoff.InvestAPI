@@ -48,7 +48,7 @@
   <ItemGroup>
     <Compile Include="TApiException.cs" />
     <Compile Include="ApiException.cs" />
-    <Compile Include="Client.cs" />
+    <Compile Include="RestClient.cs" />
     <Compile Include="Currencies.cs" />
     <Compile Include="Currency.cs" />
     <Compile Include="CurrencyPosition.cs" />
